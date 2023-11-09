@@ -1,0 +1,143 @@
+body{
+    margin-left: 60px;
+    background-color : rgb(44, 40, 40);
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    color :rgb(118, 194, 175);
+    margin-left : 325px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+#canvas{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+}
+
+canvas{
+    border: 3px solid rgb(75, 177, 151);
+    border-radius: 5px;
+    cursor: pointer;
+    display : flex;
+    margin : 15px;
+    background-color: white;
+}
+
+#canvas1, #canvas2, #canvas3, #canvas4 {
+    margin : 5px; 
+}
+
+.options{
+    display: flex;
+}
+
+.btn_option{
+    margin-top: 15px;
+    margin-right: 5px;
+    outline: none;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(118, 194, 175);
+    border: 3px solid rgb(118, 194, 175);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    border-radius : 10px;
+}
+
+#clear1 {
+    margin-left : 50px;
+}
+
+#morphing1, #morphing2 {
+    border: 1px solid  rgb(118, 194, 175);
+    background-color: rgb(118, 194, 175);
+}
+
+#morphing2 {
+    padding-top : 30;
+    padding-bottom : 30;
+    margin-left : 50px;
+}
+
+#echange {
+    margin-left : 90px;
+}
+
+.btn_option:hover {
+    border-color: rgb(235, 255, 250);
+}
+
+#couleur{
+    display: flex;
+}
+
+#palette{
+    font-size: 20px;
+    font-weight: 400;
+    color :rgb(118, 194, 175);
+    padding-top : 15px;
+    margin-left : 25px;
+    margin-right: 20px;
+}
+
+.btn_couleur{
+    margin-top: 15px;
+    margin-right: 5px;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 121, 118);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#couleur{
+    margin-top: -20px;
+}
+#rouge{
+    background-color: red;
+}
+#bleu{
+    background-color: blue;
+}
+#vert{
+    background-color: green;
+}
+#grey{
+    background-color: grey;
+}
+#orange{
+    background-color: rgb(255, 152, 18);
+}
+#jaune{
+    background-color: rgb(255, 251, 19);
+}
+
+#titre-aide{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#aide{
+    border: 1px solid rgb(118, 194, 175);
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    margin-left: 1200px;
+    padding: 30px;
+    border-radius: 20px;
+    color :rgb(118, 194, 175);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Thalassa</title>
+    <link rel="stylesheet" href="./projet.css">
+    <script src="./projet.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Projet : <strong>Thalassa</strong></h1>
+    </div>
+    <div id="canvas">
+        <div id="canvas1">
+            <canvas id="fenetre1" width="400" height="300">Votre navigateur ne supporte pas les canvas</canvas>
+            <div class="options">
+                <button class="btn_option" id="clear1">CLEAR</button>
+                <button class="btn_option" id="retour1">RETOUR</button>
+                <button class="btn_option" id="miroir1">MIROIR</button>
+                <button class="btn_option" id="morphing1"><img src="flèche_bas_verte.png" alt="fleche" height="50" width="50"></button>
+                <button class="btn_option" id="echange">ECHANGE</button>
+            </div>
+        </div>
+        <div id="canvas2">
+            <canvas id="fenetre2" width="400" height="300">Votre navigateur ne supporte pas les canvas</canvas>
+            <div class="options">
+                <button class="btn_option" id="morphing2"><img src="flèche_bas_verte.png" alt="fleche" height="50" width="50"></button>
+                <button class="btn_option" id="clear2">CLEAR</button>
+                <button class="btn_option" id="retour2">RETOUR</button>
+                <button class="btn_option" id="miroir2">MIROIR</button>
+            </div>
+        </div>
+        <div id="canvas3">
+            <canvas id="fenetre3" width="400" height="300">Votre navigateur ne supporte pas les canvas</canvas>
+        </div>
+        <div id="canvas4">
+            <canvas id="fenetre4" width="400" height="300">Votre navigateur ne supporte pas les canvas</canvas>
+        </div>
+        <div id="couleur">
+            <h2 id="palette">Palette de couleur :</h2>
+            <button class="btn_couleur" id="rouge"></button>
+            <button class="btn_couleur" id="bleu"></button>
+            <button class="btn_couleur" id="vert"></button>
+            <button class="btn_couleur" id="orange"></button>
+            <button class="btn_couleur" id="jaune"></button>
+            <button class="btn_couleur" id="grey"></button>
+        </div>
+        <div id="aide">
+            <h2 id="titre-aide">Aide :</h2>
+            <p>- Dessinez avec un clic de votre souris dans les 2 cadres du haut (point par point).</p>
+            <p>- Un shift + clic permet de commencer un nouveau segment à partir d'un nouvel endroit.</p>
+            <p>- La flèche vers le bas vous permet de lancer l'animation entre les 2 cadres et l'affiche dans le cadre juste en dessous.</p>
+            <p>- Il faut attendre 5s afin de refaire la même animation dans le même sens.</p>
+            <p>- La palette de couleur vous permet de changer de couleur, un clic gauche sur la couleur suffit à changer la couleur des prochains traits.</p>
+        </div>
+    </div>
+</body>
+</html>
